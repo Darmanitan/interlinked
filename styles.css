@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+html{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+strong{
+   font-weight: 700;
+   font-size: 16px;
+}
+
+a{
+    color: #cdd6f4;
+    text-decoration: none;
+}
+
+.top-page{
+    text-align: center;
+}
+
+.top-page h1{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.top-page h2{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.profile-picture{
+    margin-top: 50px;
+    border-radius: 50px;
+    height: 96px;
+    width: 96px;
+}
+
+.links{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* STYLING CLICKABLE BUTTONS (IDK HOW TO MAKE THIS MORE EFFICIENT GOD SAVE ME */
+
+.discord{
+    position: relative;
+    width: 690px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.discord a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.discord img{
+    position: absolute;
+    left: 1.5%;
+}
+
+
+.github{
+    position: relative;
+    width: 690px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.github a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.github img{
+    position: absolute;
+    left: 1.5%;
+}
+
+.anilist{
+    position: relative;
+    width: 690px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.anilist a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.anilist img{
+    position: absolute;
+    left: 1.5%;
+    border-radius: 16px;
+}
